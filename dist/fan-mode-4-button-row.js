@@ -413,7 +413,6 @@ class CustomFanModeRow extends Polymer.Element {
 			} else if (mode == 'mode3') {
 				param.preset_mode = this._modeThree;
 				this.hass.callService('fan', 'set_preset_mode', param);
-			}
 			} else if (mode == 'mode4') {
 				param.preset_mode = this._modeFour;
 				this.hass.callService('fan', 'set_preset_mode', param);
