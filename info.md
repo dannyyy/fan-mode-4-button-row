@@ -1,4 +1,4 @@
-Provides a means to program 3 preset mode settings for fans selectable from a Lovelace button row. 
+Provides a means to program 4 preset mode settings for fans selectable from a Lovelace button row. 
 
 ## NOTE: You must be on Home Assistant V2021.3.X or higher to use this plug-in
 
@@ -29,6 +29,7 @@ Provides a means to program 3 preset mode settings for fans selectable from a Lo
             isOnMode2Color: '#888888'
             isOnMode3Color: '#222222'
             isOnMode4Color: 'purple'
+            isOnMode5Color: 'orange'
             buttonInactiveColor: '#aaaaaa'
         ## FULL EXAMPLE CONFIGURATION
           - entity: fan.hall_fan
@@ -47,11 +48,13 @@ Provides a means to program 3 preset mode settings for fans selectable from a Lo
             modeOne: "low"
             modeTwo: "medium"
             modeThree: "high"
+            modeFour: "maximum"
             customText: true
             customOffText: 'NAY'
             customModeOneText: '1'
             customModeTwoText: 'mid'
             customModeThreeText: 'Fast'
+            customModeThreeText: 'Max'
             width: '15px'
             height: '15px'
             
